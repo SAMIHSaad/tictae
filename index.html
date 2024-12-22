@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Morpion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button id="x00" onclick="play(this)"></button></td>
+                    <td><button id="x01" onclick="play(this)"></button></td>
+                    <td><button id="x02" onclick="play(this)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="x10" onclick="play(this)"></button></td>
+                    <td><button id="x11" onclick="play(this)"></button></td>
+                    <td><button id="x12" onclick="play(this)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="x20" onclick="play(this)"></button></td>
+                    <td><button id="x21" onclick="play(this)"></button></td>
+                    <td><button id="x22" onclick="play(this)"></button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="button" onclick="resetGame()">Réinitialiser le jeu</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
